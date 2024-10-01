@@ -2,12 +2,13 @@
 
 :root{
 --text-color: #000000;
---card-front-color: .#000000;
+--card-front-color: .
+#000000;
 --card-back-color: #520471;
 }
 
 body{
-    background-color: rgb(245, 196, 255);
+    background-color: rgb(0, 0, 0);
     font-family: Bai Jamjuree;
 }
 
@@ -29,7 +30,7 @@ body{
 .cartao__conteudo{
     background: var(--card-front-color);
     text-align: center;
-    background-color: rgb(243, 145, 234);
+    background-color: rgb(255, 176, 247);
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
